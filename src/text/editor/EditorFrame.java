@@ -104,7 +104,7 @@ public class EditorFrame extends javax.swing.JFrame {
                                 new FileReader(fileName.getText()))) {
             text = in.readLine();
             while ((file = in.readLine()) != null){
-                //file.concat(in.readLine() + "\n");
+                
                 text = text + "\n" + file;
             }
             textField.setForeground(Color.black);
